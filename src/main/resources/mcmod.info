@@ -1,0 +1,8 @@
+[{
+  "modid": "chunkoverseers",
+  "name": "Chunk Overseers",
+  "description": "Chunk Overseers allow you to control which chunks are loaded at any given time with redstone!",
+  "version": "0.0.1",
+  "mcversion": "1.12.2",
+  "authorList": ["littlebeast"],
+}]

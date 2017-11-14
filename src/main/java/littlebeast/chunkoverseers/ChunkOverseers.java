@@ -6,13 +6,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 
-@Mod(modid = ChunkOverseers.MODID, name=ChunkOverseers.NAME, version=ChunkOverseers.VERSION)
+@Mod(modid = ChunkOverseers.MODID, useMetadata = true)
 public class ChunkOverseers
 {
-	public static final String MODID = "ChunkOverseers";
-	public static final String NAME = "Chunk Overseers";
-	public static final String DOMAIN = "chunkoverseers";
-    public static final String VERSION = "0.0.1";
+	public static final String MODID = "chunkoverseers";
+	//public static final String DOMAIN = "chunkoverseers";
     
     @SubscribeEvent
     public void registerBlocks(RegistryEvent.Register<Block> e)
